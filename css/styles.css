@@ -439,7 +439,8 @@
 .contact-left,
 .contact-right {
     width: 40%;
-}
+    min-width: 0;
+    }
 
 .contact-left h1 {
     font-size: var(--large-font-size);
@@ -510,7 +511,7 @@
 }
 
 .consent-checkbox:checked::after {
-    content: "✔";
+    content: "";
     position: absolute;
     left: 4px;
     top: -2px;
