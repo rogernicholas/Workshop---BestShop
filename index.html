@@ -19,6 +19,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -86,6 +88,7 @@
                     </div>
                     <div class="benefits-box-image">
                         <img src="images/Macbook2@2x.png" alt="">
+                        <div class="rectangle"></div>
                     </div>
 
                 </div>
@@ -93,6 +96,7 @@
                 <div class="benefits-box">
                     <div class="benefits-box-image">
                         <img src="images/iPhone2@2x.png">
+                        <div class="circle"></div>
                     </div>
                     <div class="benefits-box-text">
                         <h2>Your shop is where you are!</h2>
@@ -127,49 +131,96 @@
         <h1 class="pricing-title">Pricing</h1>
         <div class="pricing-cards">
 
-            <div class="card-basic">
+            <div class="card card-basic">
                 <h2>Basic</h2>
-                <p class="price">$0</p>
+                <h3 class="price">$0</h3>
                 <ul>
-                    <li>100 MB HDD</li>
-                    <li>1 Subdomain</li>
-                    <li>2 E-mails</li>
-                    <li>Two years license</li>
-                    <li>Full support</li>
+                    <li><i class="fa-regular fa-square-check" style="color: #63E6BE;"></i></i>100 MB HDD</li>
+                    <li><i class="fa-regular fa-square-check" style="color: #63E6BE;"></i>1 Subdomain</li>
+                    <li><i class="fa-regular fa-square-check" style="color: #63E6BE;"></i>2 E-mails</li>
+                    <li><i class="fa-solid fa-square-xmark" style="color: #d71414;"></i>Two years license</li>
+                    <li><i class="fa-solid fa-square-xmark" style="color: #d71414;"></i>Full support</li>
                 </ul>
                 <a href="#" class="cta-link">Begin</a>
             </div>
 
-            <div class="card-professional">
+            <div class="card card-professional">
                 <h2>Professional</h2>
-                <p class="price">$25</p>
+                <h3 class="price">$25</h3>
                 <p class="offer">Limited offer</p>
                 <ul>
-                    <li>500 MB HDD</li>
-                    <li>2 Subdomains</li>
-                    <li>5 E-mails</li>
-                    <li>One year license</li>
-                    <li class="unavailable">Full support</li>
+                    <li><i class="fa-regular fa-square-check" style="color: #63E6BE;"></i>500 MB HDD</li>
+                    <li><i class="fa-regular fa-square-check" style="color: #63E6BE;"></i>2 Subdomains</li>
+                    <li><i class="fa-regular fa-square-check" style="color: #63E6BE;"></i>5 E-mails</li>
+                    <li><i class="fa-regular fa-square-check" style="color: #63E6BE;"></i>One year license</li>
+                    <li><i class="fa-solid fa-square-xmark" style="color: #d71414;"></i>Full support</li>
                 </ul>
                 <a href="#" class="cta-link">Begin</a>
             </div>
 
-            <div class="card-premium">
+            <div class="card card-premium">
                 <h2>Premium</h2>
-                <p class="price">$60</p>
+                <h3 class="price">$60</h3>
                 <p class="offer">Limited offer</p>
                 <ul>
-                    <li>2 GB HDD</li>
-                    <li>5 Subdomains</li>
-                    <li>20 E-mails</li>
-                    <li>Two years license</li>
-                    <li>Full support</li>
+                    <li><i class="fa-regular fa-square-check" style="color: #63E6BE;"></i>2 GB HDD</li>
+                    <li><i class="fa-regular fa-square-check" style="color: #63E6BE;"></i>5 Subdomains</li>
+                    <li><i class="fa-regular fa-square-check" style="color: #63E6BE;"></i>20 E-mails</li>
+                    <li><i class="fa-regular fa-square-check" style="color: #63E6BE;"></i>Two years license</li>
+                    <li><i class="fa-regular fa-square-check" style="color: #63E6BE;"></i>Full support</li>
                 </ul>
                 <a href="#" class="cta-link">Begin</a>
             </div>
 
         </div>
-    </section>
+        </section>
+        <section class="container contact">
+            <div class="contact-container">
+                <div class="contact-left">
+                    <h1>Any questions?</h1>
+                    <p>Leave your email address or call us!</p>
+                    <div class="contact-info">
+                        <img src="images/Mail Icon.svg">
+                        <p>info@bestshop.xyz</p>
+                        <img src="images/Phone Icon.svg">
+                        <p>123 456 789</p>
+                    </div>
+                </div>
+        
+                <div class="contact-right">
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-input">
+        
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" class="form-input">
+        
+                        <div class="consent">
+                            <input type="checkbox" id="consent" class="consent-checkbox">
+                            <div class="consent">I hereby give consent for my personal data included in my application to be
+                                processed for the purposes of the recruitment process under the European Parliament’s and
+                                Council of the European Union Regulation on the Protection of Natural Persons as of 27 April
+                                2016, with regard to the processing of personal data and on the free movement of such data, and
+                                repealing Directive 95/46/EC (Data Protection Directive).</div>
+                        </div>
+        
+                        <button type="submit" class="submit-btn">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container footer-content">
+                <div class="footer-left">
+                    <h2>BestShop</h2>
+                    <p>© 2019 BestShop LTD, All Rights Reserved</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#"><img src="images/Twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="images/Facebook.svg" alt="Facebook"></a>
+                </div>
+            </div>
+        </footer>
 </body>
 
 </html>
